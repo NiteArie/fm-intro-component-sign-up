@@ -1,5 +1,9 @@
 # fm-intro-component-sign-up (Intro Component with Signup Page)
 
+## Live Preview
+
+Live URL: [https://nitearie.github.io/fm-intro-component-sign-up/](https://nitearie.github.io/fm-intro-component-sign-up/)
+
 ## Design Preview
 
 > Desktop Design
