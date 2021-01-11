@@ -47,7 +47,7 @@ body {
     text-align: center;
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
-    box-shadow: 0 7px 0 0 hsla(0, 0%, 0%, .1);
+    box-shadow: 0 7px 0 0 hsla(0, 0%, 0%, .2);
 }
 
 .container__signup__pricing__content__spec {
@@ -67,10 +67,30 @@ body {
 
 .container__signup__form__input {
     padding: 17px 25px;
+    padding-right: 50px;
     margin-bottom: 20px;
     font-weight: bold;
     border: 2px solid hsl(246, 25%, 90%);
     border-radius: 5px;
+}
+
+.container__signup__form__input.error {
+    margin-bottom: 0;
+    border: 2px solid hsl(0, 100%, 74%);
+    background-image: url("images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+}
+
+.container__signup__form__error {
+    margin: 5px 0;
+    margin-bottom: 15px;
+    color: hsl(0, 100%, 74%);
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: right;
+
 }
 
 .container__signup__form__input:focus {
@@ -120,13 +140,20 @@ body {
     font-weight: bold;
 }
 
+
+
+.hidden {
+    display: none;
+}
+
+
 @media only screen and (max-width: 1100px) {
     .container {
         margin: 20px 20px;
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 900px) {
     body {
         height: auto;
     }

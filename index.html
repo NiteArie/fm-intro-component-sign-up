@@ -43,17 +43,33 @@
           <span class="container__signup__pricing__content__spec">Try it free 7 days</span> then $20/mo. thereafter
         </p>
       </div>
-      <div class="container__signup__form">
-        <input class="container__signup__form__input" type="text" placeholder="First Name">
-        <input class="container__signup__form__input" type="text" placeholder="Last Name">
-        <input class="container__signup__form__input" type="email" placeholder="Email Address">
-        <input class="container__signup__form__input" type="password" placeholder="Password">
+      <form class="container__signup__form" novalidate>
+        <input class="container__signup__form__input container__signup__form__first" type="text" name="first"
+          placeholder="First Name">
+        <small class="container__signup__form__error container__signup__form__error-first hidden">
+          First Name cannot be empty
+        </small>
+        <input class="container__signup__form__input container__signup__form__last" type="text" name="last"
+          placeholder="Last Name">
+        <small class="container__signup__form__error container__signup__form__error-last hidden">
+          Last Name cannot be empty
+        </small>
+        <input class="container__signup__form__input container__signup__form__email" type="email" name="email"
+          placeholder="Email Address">
+        <small class="container__signup__form__error container__signup__form__error-email hidden">
+          Email Address cannot be empty
+        </small>
+        <input class="container__signup__form__input container__signup__form__password" type="password" name="password"
+          placeholder="Password">
+        <small class="container__signup__form__error container__signup__form__error-password hidden">
+          Password cannot be empty
+        </small>
         <button class="container__signup__form__submit" type="submit">Claim your free trial</button>
         <small class="container__signup__form__submit-desc">
           By clicking the button, you are agreeing to our <a class="container__signup__form__submit-desc__tos href="
             #">Terms and Services</a>
         </small>
-      </div>
+      </form>
     </div>
   </div>
 
