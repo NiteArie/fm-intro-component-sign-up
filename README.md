@@ -10,6 +10,10 @@ Live URL: [https://nitearie.github.io/fm-intro-component-sign-up/](https://nitea
 
 ![Desktop Design](./design/desktop-design.jpg)
 
+> Desktop Active State
+
+![Desktop Active State](./design/active-states.jpg)
+
 > Mobile Design
 
 ![Mobile Design](./design/mobile-design.jpg)
